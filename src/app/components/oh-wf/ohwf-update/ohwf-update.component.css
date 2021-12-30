@@ -1,0 +1,46 @@
+.main_div{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150%;
+    margin-left: 15%;
+    padding-left: 16%;
+    padding-bottom: 15%;
+    padding-right: 4%;
+    padding-top: 2%;
+    margin-top: 2%;
+
+    color: black;
+}
+
+
+h1{
+    font-size: xx-large;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 25px;
+}
+
+.a_btn{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float:left;
+    }
+
+
+mat-icon{
+    padding-top: 25%;
+    color: black;
+    font-weight: bolder;
+}    
+
+button{
+    border-radius: 30px;
+}
+
+td{
+    margin-right: 5%;
+}
+
+btn btn-success{
+    margin-left: 40%;
+}

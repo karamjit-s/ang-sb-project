@@ -1,0 +1,37 @@
+body{
+   background-color: black;
+   padding-top: 3%;
+}
+.panel{
+   
+   width: 80%;
+   height: 150%;
+   margin-left: 10%;
+   padding-left: 4%;
+   padding-bottom: 15%;
+   padding-right: 4%;
+   
+   background-color:#f5f5f5;
+   color: white;
+
+   margin-top: 0%;
+   
+   
+   
+}
+
+.title{
+   
+   margin-left: 40%;
+   color: black ;
+}
+
+button{
+   margin-right: 1%;
+}
+
+mat-icon{
+   color: black;
+   font-size: 200%;
+   
+}

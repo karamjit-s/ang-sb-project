@@ -1,0 +1,19 @@
+body{
+    height: 150%;
+    max-height: 10000px;
+}
+.panel{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 1100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+   
+}
+
+mat-paginator{
+    background-color: whitesmoke;
+}
+
+

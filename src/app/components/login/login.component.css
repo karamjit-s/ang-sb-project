@@ -1,0 +1,56 @@
+.example-form {
+    min-width: 150px;
+    max-width: 1000px;
+    width: 100%;
+    color: black;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 28px;
+  }
+
+  .submitDiv{
+    float:  center;
+    margin-left: 40%;
+  }
+
+  .btn{
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+
+  .header_caption{
+      margin-left: 45%;
+      font-weight: 500;
+      font-size: xx-large;
+     
+  }
+
+   .login{
+     
+      width: 50%;
+      background-color: whitesmoke;
+      margin-left: 23%;
+      margin-top: 2%;
+  } 
+
+  table{
+      margin-bottom: 15%;
+      margin-top: 10%;
+  }
+
+  table,tr,td{
+      height: 200%;
+  }
+
+  .mat-form-field{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+  }

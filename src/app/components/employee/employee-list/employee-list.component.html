@@ -1,0 +1,51 @@
+<body>
+  
+<div class="panel panel-primary">
+  <br>
+  <div class="panel-heading">
+    <b class="title"> Employee List</b>
+    <a href="/add" style=" font-size: 20px; margin-left: 1000px;">
+     <mat-icon class="add_box_icon">add_box</mat-icon>
+    
+    
+    </a>
+
+
+  </div>
+  <br>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let employee of employees | async">
+          <td>{{employee.first_name}}</td>
+          <td>{{employee.last_name}}</td>
+          <td>{{employee.email_id}}</td>
+          <td>
+
+            <button (click)="updateEmployee(employee.eid)" class="btn btn-primary" >Update</button>
+
+            <button (click)="deleteEmployee(employee.eid)" class="btn btn-danger">Delete</button>
+           
+            <button (click)="employeeDetails(employee.eid)" class="btn btn-success" >Details</button>
+
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<br>
+<br>
+
+</body>

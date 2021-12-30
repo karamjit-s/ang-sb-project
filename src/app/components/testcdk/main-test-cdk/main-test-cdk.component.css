@@ -1,0 +1,154 @@
+
+.mat-drawer-container-div{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 1, 19);
+    }
+
+.mat-drawer-div{
+width:400px ;
+}
+
+
+.header{
+  margin-left: 43%;
+}
+
+.mat-drawer-content-title{
+  color: whitesmoke;
+  
+
+}
+
+    .drawer_title_div{
+      color: black;
+    
+    }
+    
+    .element_add_icon{
+      color: black;
+    }
+    
+    .toggle_option_dropdown_field{
+      margin-left: 30%;
+      margin-right: 2%;
+      background-color: whitesmoke;
+      color: black;
+      border-radius: 5%;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      visibility: hidden;
+    }
+    .toggle_option_select_field{
+      /* background-color: whitesmoke;*/
+      color: black;
+    }
+    .toggle_has_backdrop_field{
+      background-color: whitesmoke;
+      color: black;
+      border-radius: 5%;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      visibility: hidden;
+
+    }
+    .toggle-right-side-bar-button{
+    
+    margin-top:5%;
+    margin-left: 20%;
+    
+    }
+    
+    
+    mat-drawer{
+        width: 20%;
+    }
+    
+    .dran-n-drop_div{
+    margin-left: 19%;
+    margin-top: 0%;
+    } 
+
+    .mat-drawer-dran-n-drop_div{
+      margin-left: 1%;
+    }
+    
+    .pick-the-element-h2{
+      color: black;
+    }
+
+    .h2{
+        margin-left: 180px;
+    }
+    
+    .example-container {
+        width: 300px;
+        margin-left: 6%;
+        margin-bottom: 5%;   
+        display: inline-block;
+        vertical-align: top;
+        color: whitesmoke;
+      }
+      
+      .example-list {
+        border: solid 1px #ccc;
+        min-height: 60px;
+        background: white;
+        border-radius: 4px;
+        overflow: hidden;
+        display: block;
+      }
+      
+      .example-box {
+        padding: 20px 10px;
+        border-bottom: solid 1px #ccc;
+        color: rgba(0, 0, 0, 0.87);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        cursor: move;
+        background: white;
+        font-size: 14px;
+      }
+      
+      .cdk-drag-preview {
+        box-sizing: border-box;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                    0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                    0 3px 14px 2px rgba(0, 0, 0, 0.12);
+      }
+      
+      .cdk-drag-placeholder {
+        opacity: 0;
+      }
+      
+      .cdk-drag-animating {
+        transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+      }
+      
+      .example-box:last-child {
+        border: none;
+      }
+      
+      .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+        transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+      }
+    
+    
+      
+    /*   
+      mat-drawer-content {
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      } */
+      
+    

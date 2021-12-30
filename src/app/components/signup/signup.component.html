@@ -1,0 +1,73 @@
+<form class="sign_up_form"  (ngSubmit)="onSubmit()">
+
+  <div class="header" >
+    <h1>Sign Up Form</h1>
+  </div>
+
+  <table class="table_form">
+
+    <!-- start row -->
+    <tr>
+
+      <td>
+        <mat-form-field>
+          <mat-label>First Name</mat-label>
+          <input matInput placeholder="first_name" [(ngModel)]="signUp.first_name" name="first_name" >
+        </mat-form-field>
+      </td>
+
+      <td>
+        <mat-form-field>
+          <mat-label>Last Name</mat-label>
+          <input matInput placeholder="last_name" [(ngModel)]="signUp.last_name" name="last_name" >
+        </mat-form-field>
+      </td>
+
+      <td>
+        <mat-form-field>
+          <mat-label>User Name</mat-label>
+          <input matInput placeholder="user_name" [(ngModel)]="signUp.user_name" name="user_name" >
+        </mat-form-field>
+      </td>
+
+    </tr>
+<!-- end row -->
+
+<!-- start row -->
+    <tr>
+
+      <td>
+        <mat-form-field>
+          <mat-label>Email Id</mat-label>
+          <input matInput type="email" placeholder="email_id" [(ngModel)]="signUp.email_id" name="email_id" >
+        </mat-form-field>
+      </td>
+
+      <td>
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input matInput pa placeholder="password" [(ngModel)]="signUp.password" type="password" name="password"
+            >
+        </mat-form-field>
+      </td>
+
+      <td>
+        <mat-form-field>
+          <mat-label>Confirm Password</mat-label>
+          <input matInput pa placeholder="confirm_password" [(ngModel)]="signUp.confirm_password" type="password"
+            name="confirm_password" >
+        </mat-form-field>
+      </td>
+
+    </tr>
+<!-- end row -->
+
+  </table>
+
+  <div class="submit_div">
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+  </div>
+
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>

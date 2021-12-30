@@ -1,0 +1,55 @@
+<form class="ohwf_create_form" (ngSubmit)="onSubmit()">
+
+    <a href="update_ohwf_back" class="a_btn">
+            <mat-icon>arrow_backward</mat-icon>
+    </a>
+
+    <div class="header">
+        <h1>OHWF Create Form</h1>
+    </div>
+
+    <table>
+
+        <tr>
+            <td>
+                <mat-form-field>
+                    <mat-label>Form Name</mat-label>
+                    <input matInput placeholder="form_name" name="form_name" [(ngModel)]="ohwf.form_name">
+                </mat-form-field>
+            </td>
+
+            <td>
+                <mat-form-field>
+                    <mat-label>Form Type</mat-label>
+                    <input matInput placeholder="form_type" name="form_type" [(ngModel)]="ohwf.form_type">
+                </mat-form-field>
+
+                <!-- <mat-form-field >  
+                    <mat-label>Form Type</mat-label>  
+                    <mat-select>  
+                      <mat-option value = "option">Only Header</mat-option>  
+                      <mat-option value = "option">Only Header</mat-option>  
+                    </mat-select>  
+                  </mat-form-field>   -->
+
+            </td>
+
+            <td>
+
+                <mat-form-field>
+                    <mat-label>Table Name</mat-label>
+                    <input matInput placeholder="table_name" name="table_name" [(ngModel)]="ohwf.table_name">
+                </mat-form-field>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <div class="submit_div">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>

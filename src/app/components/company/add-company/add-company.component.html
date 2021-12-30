@@ -1,0 +1,28 @@
+<form class="panel" (ngSubmit)="onSubmit()">
+
+  <h2>Create Employee</h2>
+
+  <div class="row">
+    <div class="col">
+    <div class="form-group">
+      <label for="name">Company Name</label>
+      <input type="text" class="form-control" id="company_name" required [(ngModel)]="company.company_name" name="company_name">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label for="name">Location</label>
+      <input type="text" class="form-control" id="location" required [(ngModel)]="company.location" name="location">
+    </div>
+    </div>
+  </div>
+
+  <div class="submit_button" >
+    <button type="submit" class="btn btn-success" name="submit_button">Submit</button>
+    
+    </div>
+
+  </form>
+
+
+<br><br>

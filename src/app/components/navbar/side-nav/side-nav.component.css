@@ -1,0 +1,69 @@
+/* mat-nav-list{
+height: 100%;
+} */
+
+a:hover {
+    background-color: rgb(66, 63, 63);
+    color: #3b074b; 
+    box-shadow: inset 0 0 0 25px rgb(209, 209, 211) ;
+   
+}
+.side-nav{
+    color: white;
+    background-color: black;
+}
+.toolbar{
+   background-color: #eeeeee;
+   height:61px;
+   /* color: black; */
+}
+.menubar{
+    padding-left: 5px;
+}
+    
+.menu-caption{
+    padding-left: 10px;
+    color: black;
+} 
+
+.nav-caption{
+    display: inline-block;
+    padding-left: 15px;
+    color: white;
+}
+  
+.nav-icon{
+    margin-left: 8px;
+    color: white;
+}
+
+
+
+ mat-divider{
+    background-color: white;
+
+    
+} 
+
+mat-list-item:hover{
+background-color: aliceblue;
+}
+
+router-outlet{
+    height: 100%;
+    width: 100%;
+}
+
+.example-container {
+    width: 400px;
+    height: 200px;
+    margin: 12px;
+    border: 1px solid #555;
+  }
+  
+  mat-drawer-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }

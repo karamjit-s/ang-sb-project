@@ -1,0 +1,32 @@
+<body>
+<div class="title_div">
+  <b class="title">Company List</b>
+  <a href="/add_company" class="add_icon_div">
+    <mat-icon class="add_icon">add_box</mat-icon>
+  </a>
+</div>
+
+
+<div class="example-container">
+  <table class="table">
+    <thead class="thead">
+      <tr>
+        <th>Company Name</th>
+        <th>Location</th>
+        <th id="th3">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let company of company | async">
+        <td>{{company.company_name}}</td>
+        <td>{{company.location}}</td>
+        <td>
+          <button (click)="updateCompany(company.cid)" class="btn btn-primary">Update</button>
+          <button (click)="deleteCompany(company.cid)" class="btn btn-danger">Delete</button>
+          <button (click)="companyDetails(company.cid)" class="btn btn-success">Details</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</body>

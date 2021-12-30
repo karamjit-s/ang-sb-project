@@ -1,0 +1,43 @@
+
+body{
+  background-color: rgb(224, 213, 226);
+  color: whitesmoke;
+  padding-bottom: 10%;
+}
+
+.dbc_title{
+
+  margin-left: 49%;
+  padding-top: 5%;
+
+}
+
+
+mat-tab-group{
+
+  padding-top: 1%;  
+  padding-bottom: 5%;
+
+  margin-left: 15%;
+  margin-right: 0%;
+  
+  border: 2px;
+  border-color: black;
+
+}
+h2{
+  color: black;
+}
+
+  mat-card{
+    background-color: rgb(232, 236, 236);
+    height: 800px;
+
+    margin-left: 15%;
+    margin-right: 0%;
+
+    
+  }
+
+  
+ 

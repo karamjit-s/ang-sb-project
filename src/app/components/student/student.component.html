@@ -1,0 +1,60 @@
+<body>
+  
+  <br>
+  <div class="panel">
+    <br>
+
+    <div class="panel-heading">
+
+      <b class="c_list" style="font-size: 20px; padding-left: 42%;"> Student List</b>
+
+      <a href="" style=" font-size: 20px; margin-left: 41%;">
+        <button mat-raised-button matTooltip="Info about the action"
+          aria-label="Button that displays a tooltip when focused or hovered over">
+          <mat-icon aria-hidden="">add</mat-icon>
+        </button></a>
+
+    </div>
+
+    <br>
+    <br>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>College Name</th>
+            <th>Department</th>
+            <th>Roll No.</th>
+            <th>Email Id</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of student | async">
+            <td>ks{{student.student_name}}</td>
+            <td>lkc{{student.college_name}}</td>
+            <td>it{{student.department}}</td>
+            <td>51{{student.roll_no}}</td>
+            <td>ks@outlook.com{{student.email_id}}</td>
+            <td>
+              <button (click)="updateStudent(student.student_id)" class="btn btn-primary" style="margin-left: 10px">Update</button>
+              <button (click)="deleteStudent(student.student_id)" class="btn btn-danger" style="margin-left: 10px">Delete</button>
+              <button (click)="studentDetails(student.student_id)" class="btn btn-success" style="margin-left: 10px">Details</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br><br><br><br><br>
+    <mat-paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]">
+    </mat-paginator><br><br>
+  </div>
+  
+  <br><br><br>
+  <br><br><br>
+  
+  
+
+</body>
+ 

@@ -1,0 +1,48 @@
+<div class="main_div">
+
+  <a href="update_ohwf_back" class="a_btn">
+<button class="btn-primary">
+  <mat-icon>arrow_backward</mat-icon>
+</button>
+  </a>
+
+
+  <h1>Wireframe OH Form </h1>
+
+
+
+  <form (ngSubmit)="onSubmit()">
+
+    <table>
+      <tr>
+        <td>
+          <div class="form-group">
+            <label for="name">Form Name</label>
+            <input type="text" class="form-control" id="form_name" required [(ngModel)]="ohwf.form_name"
+              name="form_name">
+          </div>
+        </td>
+
+        <td>
+          <div class="form-group">
+            <label for="name">Form Type</label>
+            <input type="text" class="form-control" id="form_type" required [(ngModel)]="ohwf.form_type"
+              name="form_type">
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <label for="name">Table Name</label>
+            <input type="text" class="form-control" id="table_name" required [(ngModel)]="ohwf.table_name"
+              name="table_name">
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+
+</div>
+
+<br><br><br><br><br><br><br><br>

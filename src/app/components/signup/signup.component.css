@@ -1,0 +1,55 @@
+.sign_up_form {
+  max-width: min-content;
+  width: 100%;
+  height: 100%;
+  background-color : whitesmoke;
+  color: whitesmoke;
+  
+  margin-top: 2%;
+  margin-left: 22%;
+  margin-right: 10%;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+ 
+mat-labe{
+  color:black ;
+}
+
+h1{
+color: black;
+padding-top: 2%;
+padding-left: 40%;
+justify-content: center;
+}
+
+.header{
+ margin-bottom: 10%; 
+}
+
+.submit_button_div{
+    margin-left: 13%;
+    margin-top: 10%;
+    padding-left: 30%;
+}
+
+
+td{
+  padding-bottom: 5%;
+  padding-right: 35%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+ 
+
+input{
+  color: black;
+}
+
+.submit_div{
+  margin-top: 5%;
+  margin-left: 45%;
+}

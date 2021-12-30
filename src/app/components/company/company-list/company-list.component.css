@@ -1,0 +1,65 @@
+body{
+   background-color: rgb(4, 0, 10);
+   padding-top: 5%;
+   padding-bottom: 5%;
+
+}
+
+.title_div{
+   margin-top:2%;
+}
+
+.title{ 
+   margin-left: 40%;
+   color: rgb(255, 255, 255) ;
+}
+
+
+.add_icon_div{
+   font-size: 20px;
+    margin-left: 1000px;
+}
+
+.add_icon{
+color:whitesmoke;
+padding-left: 18%;
+font-size: 200%; 
+
+}
+
+.example-container{
+   margin-left: 170px;
+   margin-right: 200px;
+}
+
+.table{
+color: whitesmoke; 
+padding-left: 0px; 
+padding-right: 20px; 
+height: 20%;
+
+/* margin-bottom: 30%; */
+}  
+
+th{
+   padding-left: 130px;
+   width: fit-content;
+}
+#th3{
+   padding-left: 22%;
+}
+
+td{
+   padding-left: 130px;
+   width: fit-content;
+}
+
+td button{
+   margin-right: 4%;
+}
+
+
+
+
+
+

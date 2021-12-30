@@ -1,0 +1,52 @@
+<div class="panel panel-primary">
+
+  <div class="panel-heading">
+    <!--Header Start-->
+    <h2>Only Header Wireframe</h2>
+    <!--Header End-->
+
+    <a href="add_ohwf_record" class="a_btn">
+      <button mat-raised-button matTooltip="Info about the action"
+        aria-label="Button that displays a tooltip when focused or hovered over">
+        <span class="material-icons">
+          add
+        </span>
+      </button>
+    </a>
+
+  </div>
+
+  <!--Body Start-->
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+
+
+        <tr>
+          <th>Form Name</th>
+          <th>Form Type</th>
+          <th>Table Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let ohwf of ohwf | async">
+          <td>{{ohwf.form_name}}</td>
+          <td>{{ohwf.form_type}}</td>
+          <td>{{ohwf.table_name}}</td>
+          <td>
+            <button (click)="updateOhwf(ohwf.ohwf_id)" class="btn btn-primary">Edit</button>
+            <button (click)="deleteOhwf(ohwf.ohwf_id)" class="btn btn-danger">Delete</button>
+            <button (click)="build_wf(ohwf.ohwf_id)" class="btn btn-success">Build</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <!--Body End-->
+
+</div>
+<br>
+<br>

@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+
+app-root{
+ 
+    height: 100%;
+    width:100%;
+}
+
+body {
+    background-color: #000000;
+    width: auto;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+    .head {
+      background: #940132;
+      width: 110%;
+      height: 100%;
+    }
+ 
+    col-11{
+      padding-right: 0%;
+    }
+
+    h1 {
+      padding-left: 0px;
+      margin-top: 20%;
+      font-size:xx-large;
+      font-weight: 900;
+      color:  white;
+      font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    }
+
+    .myAppLogo {
+      margin-left: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .body {
+      background-color: black;
+      width: 100%;
+    }
+
+    #title_text{
+      
+      margin-top: 25px;
+    }
+ 
+   
+  

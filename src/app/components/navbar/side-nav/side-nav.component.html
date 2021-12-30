@@ -1,0 +1,97 @@
+<!-- <div class="side-nav">   -->
+
+<!-- <mat-toolbar class="toolbar">
+        <div class="menubar" fxHide.gt-xs>
+            <button class="menu-button" mat-icon-button>
+                <mat-icon>menu</mat-icon>
+            </button><span class="menu-caption">Menu</span>
+        </div>
+    </mat-toolbar> -->
+
+
+<!-- <mat-icon class="menu-icon">menu</mat-icon><span class="menu-caption">Menu</span> -->
+
+
+    <!--new code commented start-->
+    
+    <mat-nav-list class="navlist">
+      
+        
+        
+        <a mat-list-item routerLink="/home" (click)="onSidenavClose()">
+            <mat-icon class="nav-icon">home</mat-icon> <span class="nav-caption">Home</span>
+        </a>
+      
+        <!-- <mat-divider></mat-divider> -->
+
+         <!-- <igx-divider></igx-divider> -->
+
+        <a mat-list-item routerLink="header_line" (click)="onSidenavClose()">
+            <mat-icon class="nav-icon">device_hub</mat-icon> <span class="nav-caption">Header Line</span>
+        </a>
+        <!-- <mat-divider></mat-divider> -->
+
+        <a mat-list-item routerLink="add_menu" (click)="onSidenavClose()">
+            <mat-icon class="nav-icon">ballot</mat-icon><span class="nav-caption">Add Menu</span>
+        </a>
+        <!-- <mat-divider></mat-divider> -->
+
+        <a mat-list-item routerLink="student_list" (click)="onSidenavClose()">
+            <mat-icon class="nav-icon">person</mat-icon><span class="nav-caption">Student</span>
+        </a>
+        <!-- <mat-divider></mat-divider> -->
+
+        <a mat-list-item routerLink="only_header_wireframe" (click)="onSidenavClose()">
+            <mat-icon class="nav-icon">hd</mat-icon><span class="nav-caption">Only Header Wireframe</span>
+        </a>
+        <!-- <mat-divider></mat-divider>  -->
+
+ <!--new code commented end-->
+
+        <!-- <mat-list-item [matMenuTriggerFor]="menu">
+        <mat-icon class="nav-icon">dns</mat-icon>
+            <a matline class="form-caption">Forms</a>
+            <mat-icon class="nav-icon_expand_more">expand_more</mat-icon>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="onSidenavClose()">Only Header</button>
+            <button mat-menu-item (click)="onSidenavClose()">Only Line</button>
+            <button mat-menu-item (click)="onSidenavClose()">Header Line</button>
+
+        </mat-menu>  -->
+
+
+
+    </mat-nav-list>  <!--new code commented line -->
+
+
+    
+
+<!-- 
+</div> -->
+
+
+
+<!-- <mat-drawer-container class="example-container" [hasBackdrop]="hasBackdrop.value">
+    <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+    <mat-drawer-content>
+      <mat-form-field>
+        <mat-label>Sidenav mode</mat-label>
+        <mat-select #mode value="side">
+          <mat-option value="side">Side</mat-option>
+          <mat-option value="over">Over</mat-option>
+          <mat-option value="push">Push</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Has backdrop</mat-label>
+        <mat-select #hasBackdrop>
+          <mat-option>Unset</mat-option>
+          <mat-option [value]="true">True</mat-option>
+          <mat-option [value]="false">False</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+    </mat-drawer-content>
+  </mat-drawer-container> -->

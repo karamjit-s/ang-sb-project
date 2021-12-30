@@ -1,0 +1,101 @@
+<body>
+  <nav class="navbar navbar-expand-md navbar-light  " >
+
+    <div class="menubar" fxHide.gt-xs>
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+
+
+
+        <li class="nav-item">
+          <a routerLink="home" class="nav-link" routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{exact: true}">
+            <b style=" padding-left:10px; font-size: 120%;">Home</b>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="employees" class="nav-link" routerLinkActive="active-link">
+            <b style="font-size: 120%;">Employees</b></a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="company" class="nav-link" routerLinkActive="active-link">
+            <b style="font-size: 120%;">Company</b>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="test_cdk" class="nav-link" routerLinkActive="active-link">
+            <b style="font-size: 120%;">Test Cdk</b>
+          </a>
+        </li>
+
+        <form class="form-inline my-2 my-lg-0" name="searchform">
+          <input style="width: 350px; text-align: center;" class="form-control mr-sm-3" type="text" placeholder="Search"
+            aria-label="Search">
+         
+          <button mat-raised-button matTooltip="Info about the action"
+          aria-label="Button that displays a tooltip when focused or hovered over">
+          <mat-icon aria-hidden="">search</mat-icon>
+        </button>
+        </form>
+
+        <button class="account_btn" mat-icon-button [matMenuTriggerFor]="menu" aria-label="icon-button with a menu">
+          <mat-icon>person</mat-icon><mat-icon>expand_more</mat-icon>
+        </button>
+        
+        <mat-menu #menu="matMenu" style="float: right;">
+
+         
+
+          <a routerLink="signup" class="nav-link" routerLinkActive="active-link">
+            <button mat-menu-item>
+              <mat-icon>person_add</mat-icon>
+              <span>Sign Up</span>
+            </button>
+          </a>
+          <a routerLink="login" class="nav-link" routerLinkActive="active-link">
+
+            <button mat-menu-item>
+              <mat-icon>login</mat-icon>
+              <span>Log In</span>
+            </button>
+          </a>
+          <a routerLink="home" class="nav-link">
+            <button mat-menu-item>
+              <mat-icon>logout</mat-icon>
+              <span>Logout</span>
+            </button>
+          </a>
+
+        
+
+        </mat-menu>
+
+      </ul>
+
+
+
+    </div>
+  </nav>
+
+
+
+
+
+</body>
+
+<router-outlet></router-outlet>
+
+
+ <footer class="footer">
+    <div class="container">
+      
+        <span>We are creative 2020 @ Karam</span>
+    </div>
+  </footer> 

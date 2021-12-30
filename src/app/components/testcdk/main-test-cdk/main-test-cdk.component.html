@@ -1,0 +1,81 @@
+<mat-drawer-container class="mat-drawer-container-div" [hasBackdrop]="hasBackdrop.value">
+
+
+    <mat-drawer class="mat-drawer-div" #drawer [mode]="mode.value" position="end">
+
+        <b class="">Edit Form</b>
+
+        <br><br><br>
+        <div class="drawer_title_div">
+            Add Element into form <br>
+            <a href="/add_element_into_test_cdk" class="add_icon_div">
+                <mat-icon class="element_add_icon">add_box</mat-icon>
+            </a>
+        </div>
+
+
+        <div class="mat-drawer-dran-n-drop_div" cdkDropListGroup>
+
+            <div class="example-container">
+                <h2 class="pick-the-element-h2">Pick The Element</h2>
+                <div cdkDropList [cdkDropListData]="done" class="example-list" (cdkDropListDropped)="drop($event)">
+                    <div class="example-box" *ngFor="let item of done" cdkDrag>{{item}}</div>
+                </div>
+            </div>
+
+        </div>
+
+    </mat-drawer>
+
+
+
+    <mat-drawer-content>
+     
+        <div class="header">
+        <b class="mat-drawer-content-title">Test CDK</b>
+        <button class="toggle-right-side-bar-button" mat-raised-button (click)="drawer.toggle()">Toggle
+            Right Bar
+        </button>
+        </div>
+        <mat-form-field class="toggle_option_dropdown_field">
+            <mat-label>Slide</mat-label>
+            <mat-select class="toggle_option_select_field" #mode value="side">
+                <mat-option value="side">Side</mat-option>
+                <mat-option value="over">Over</mat-option>
+                <mat-option value="push">Push</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field class="toggle_has_backdrop_field">
+            <mat-label>Fade</mat-label>
+            <mat-select #hasBackdrop #mode value="false">
+                <mat-option [value]="true">True</mat-option>
+                <mat-option [value]="false">False</mat-option>
+            </mat-select>
+        </mat-form-field>
+       
+
+
+
+        <div class="dran-n-drop_div" cdkDropListGroup>
+
+            <div class="example-container">
+
+                <h2 class="h2">To do</h2>
+
+                <div cdkDropList [cdkDropListData]="todo" class="example-list" (cdkDropListDropped)="drop($event)">
+                    <div class="example-box" *ngFor="let item of todo" cdkDrag>{{item}}</div>
+                </div>
+            </div>
+
+            <div class="example-container">
+                <h2 class="h2">Done</h2>
+
+                <div cdkDropList [cdkDropListData]="done" class="example-list" (cdkDropListDropped)="drop($event)">
+                    <div class="example-box" *ngFor="let item of done" cdkDrag>{{item}}</div>
+                </div>
+            </div>
+        </div>
+    </mat-drawer-content>
+
+</mat-drawer-container>

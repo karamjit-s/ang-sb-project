@@ -1,0 +1,49 @@
+<form class="panel" (ngSubmit)="onSubmit()">
+
+  <a href="employees" class="a_btn">
+       <mat-icon>arrow_backward</mat-icon>
+</a>
+
+  
+  <h2>Create Employee</h2>
+
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="name">First Name</label>
+        <input type="text" class="form-control" id="first_name" required [(ngModel)]="employee.first_name"
+          name="first_name">
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label for="name">Last Name</label>
+        <input type="text" class="form-control" id="last_name" required [(ngModel)]="employee.last_name"
+          name="last_name">
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="name">Email Id</label>
+        <input type="text" class="form-control" id="email_id" required [(ngModel)]="employee.email_id" name="email_id">
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+
+  <div class="submit_button">
+  <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</form>
+
+<div>
+  <h4>You submitted successfully!</h4>
+  <!-- <button class="btn btn-success" (click)="newEmployee()">Add</button> -->
+
+</div>
+<br><br>

@@ -1,0 +1,41 @@
+.example-form {
+    width: 80%;
+    height:100%;
+    color: #000000;
+    background-color: whitesmoke;
+    padding-left: 10%;
+    padding-right: 10%; 
+    margin-left: 11%; 
+
+}
+
+.example-full-width {
+  width: 100%;
+  height: 100%;
+} 
+
+.header_caption{
+  margin-left: 43%;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+
+
+mat-form-field{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-right: 28px;
+  }
+  
+.submitDiv{
+    float:  center;
+    margin-left: 40%;
+  }
+
+.btn{
+      margin-left: 13%;
+      margin-top: 10%;
+  }
+
+  

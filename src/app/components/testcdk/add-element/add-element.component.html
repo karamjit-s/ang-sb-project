@@ -1,0 +1,46 @@
+<!-- <p class="p">add-element works!</p> -->
+<form class="sign_up_form"  (ngSubmit)="onSubmit()">
+
+    <div class="header" >
+      <h1>Add Element Form</h1>
+    </div> 
+  
+    <table class="table_form">
+  
+      <!-- start row -->
+      <tr>
+  
+        <td>
+          <mat-form-field>
+            <mat-label>Element Name</mat-label>
+            <input matInput placeholder="element_name" name="element_name"required [(ngModel)]="add_element_cdk.element_name" >
+          </mat-form-field>
+        </td>
+  
+        <!-- <td>
+          <mat-form-field>
+            <mat-label>Last Name</mat-label>
+            <input matInput placeholder="last_name" [(ngModel)]="signUp.last_name" name="last_name" >
+          </mat-form-field>
+        </td>
+  
+        <td>
+          <mat-form-field>
+            <mat-label>User Name</mat-label>
+            <input matInput placeholder="user_name" [(ngModel)]="signUp.user_name" name="user_name" >
+          </mat-form-field>
+        </td> -->
+  
+      </tr>
+  <!-- end row -->
+  
+  
+    </table>
+  
+    <div class="submit_div">
+      <button type="submit" class="btn btn-primary">Add Element</button>
+    </div>
+  
+  </form>
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br>

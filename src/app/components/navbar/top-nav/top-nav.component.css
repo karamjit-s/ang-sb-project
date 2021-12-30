@@ -1,0 +1,84 @@
+.navbar{
+    background-color: whitesmoke;
+    height: 61px;
+    
+}
+
+.menubar{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+}
+
+#navbarsExampleDefault{
+    margin-left: 0px;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+} 
+ a:hover, a:active{
+    color: rgb(92, 78, 78);
+} 
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ mat-toolbar{
+    border-radius: 3px;
+} 
+@media(max-width: 959px){
+     mat-toolbar{
+        border-radius: 0px; 
+    } 
+} 
+
+b{
+    color: rgb(0, 0, 0);
+}
+
+#formDropdown{
+    color: black;
+}
+
+li:hover {
+    background-color: rgb(224, 224, 224);
+    color: #040005; 
+    box-shadow: inset 0 0 0 25px rgb(209, 209, 211) ;
+}
+
+ li:hover{
+    opacity: 2;
+} 
+
+.form-inline{
+margin-left: 100px;
+}
+
+.account_btn{
+margin-left: 300px;
+}
+
+.tooltipbutton{
+background-color: black;
+}
+
+ul{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container{
+padding-top: 160px;
+padding-left: 430px;
+}
+
+
+.footer{
+    height: 200px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(246, 247, 241);
+}
