@@ -25,10 +25,13 @@ Drag and drop CDK
 
 The @angular/cdk/drag-drop module provides you with a way to easily and declaratively create drag-and-drop interfaces, with support for free dragging, sorting within a list, transferring items between lists, animations, touch devices, custom drag handles, previews, and placeholders, in addition to horizontal lists and locking along an axis.
 ![cdk](https://user-images.githubusercontent.com/69523356/147021521-410fb8bf-9b3b-4f92-9066-0a96c833bf68.png)
-
+Pick the Element To Drag
 ![Screenshot (42)](https://user-images.githubusercontent.com/69523356/148094303-784c89d5-c72d-4490-b13c-f399acb08309.png)
+Drag the Element
 ![Screenshot (43)](https://user-images.githubusercontent.com/69523356/148094368-d7bb6485-a4ed-4b0a-844e-f17e4475bef2.png)
+Put The ELement
 ![Screenshot (44)](https://user-images.githubusercontent.com/69523356/148094376-6a134230-bff5-4037-b98d-2394afb15c9d.png)
+Dragged Element
 ![Screenshot (47)](https://user-images.githubusercontent.com/69523356/148094395-a3c1bdeb-2512-424d-bf50-8841710fc8dd.png)
 
 
@@ -56,7 +59,7 @@ updated
 
 
 
-Company List
+Company List Dark Mpde
 
 The Company module shows the data records in the list user interface which has different features where we can create , read, update and delete the data records.
 
