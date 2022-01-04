@@ -41,8 +41,7 @@ The employee module shows the data records in the list user interface which has 
 
 ![emp_list](https://user-images.githubusercontent.com/69523356/147021589-b7adbba8-2f4a-4fdd-b83f-1427a0d7a5df.png)
 create button
-![create](https://user-images.githubusercontent.com/69523356/148094473-d03374a8-32f7-4750-95c3-275d57cbc098.png)
-create form
+![Screenshot (54)](https://user-images.githubusercontent.com/69523356/148096121-eb415b91-054e-418d-bf4a-ce9b07adf005.png)create form
 ![Screenshot (48)](https://user-images.githubusercontent.com/69523356/148094606-596d50c8-251b-41ee-bbfb-565904d032d9.png)
 created
 ![created](https://user-images.githubusercontent.com/69523356/148094668-f97e44bf-b6a5-4f3a-b07b-bd519ec85082.png)
