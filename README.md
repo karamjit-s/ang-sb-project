@@ -31,7 +31,7 @@ Drag the Element
 ![Screenshot (43)](https://user-images.githubusercontent.com/69523356/148094368-d7bb6485-a4ed-4b0a-844e-f17e4475bef2.png)
 Put The ELement
 ![Screenshot (44)](https://user-images.githubusercontent.com/69523356/148094376-6a134230-bff5-4037-b98d-2394afb15c9d.png)
-Dragged Element
+Toggle Right Side Bar
 ![Screenshot (47)](https://user-images.githubusercontent.com/69523356/148094395-a3c1bdeb-2512-424d-bf50-8841710fc8dd.png)
 
 
