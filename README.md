@@ -32,8 +32,7 @@ Drag the Element
 Put The ELement
 ![Screenshot (44)](https://user-images.githubusercontent.com/69523356/148094376-6a134230-bff5-4037-b98d-2394afb15c9d.png)
 Toggle Right Side Bar
-![Screenshot (47)](https://user-images.githubusercontent.com/69523356/148094395-a3c1bdeb-2512-424d-bf50-8841710fc8dd.png)
-
+![Screenshot (47)](https://user-images.githubusercontent.com/69523356/148095457-637af89e-1c00-4f50-9414-b35a7c885ea0.png)
 
 
 Employee List
