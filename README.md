@@ -1,27 +1,43 @@
-# Angular8SpringbootClient
+# ang-sb-project
+Angular + Springboot Project with REST Api + MySQL + JPA + Hibernate technologies
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4202/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Home 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This page has multiple sliding tabs which shows the inforfmation of different modules of projects such as components, data management, elements, technologies, CI/CD, security. 
+![home](https://user-images.githubusercontent.com/69523356/147020887-1c14a6f1-94d3-43e4-8ce7-c155f06ebe76.png)
 
-## Build
+Signup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The signup module allows the user to create the account on website to access the privilages. These data records are saving through the secure authentication layer in the databases which saves the data with the encryption methods.
 
-## Running unit tests
+![signup](https://user-images.githubusercontent.com/69523356/147021612-33e73093-dc4b-4cdc-9aa0-ecb8e1109942.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Login
 
-## Running end-to-end tests
+The login module allows the user to access their profiles with the particular credentials. This login section has also forget password feature to reset the password through the secure authentication layer in the databases which verify the data from database.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![login](https://user-images.githubusercontent.com/69523356/147021630-575b3511-572d-4c07-b226-b001086d3d55.png)
 
-## Further help
+Drag and drop CDK
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The @angular/cdk/drag-drop module provides you with a way to easily and declaratively create drag-and-drop interfaces, with support for free dragging, sorting within a list, transferring items between lists, animations, touch devices, custom drag handles, previews, and placeholders, in addition to horizontal lists and locking along an axis.
+![cdk](https://user-images.githubusercontent.com/69523356/147021521-410fb8bf-9b3b-4f92-9066-0a96c833bf68.png)
+
+Employee List
+
+The employee module shows the data records in the list user interface which has different features where we can create , read, update and delete the data records.
+
+![emp_list](https://user-images.githubusercontent.com/69523356/147021589-b7adbba8-2f4a-4fdd-b83f-1427a0d7a5df.png)
+
+Company List
+
+The Company module shows the data records in the list user interface which has different features where we can create , read, update and delete the data records.
+
+![company](https://user-images.githubusercontent.com/69523356/147022745-602861a9-e11d-48f0-b851-ee17bbe5417d.png)
+
+
+
+
